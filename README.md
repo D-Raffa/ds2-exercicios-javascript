@@ -18,7 +18,7 @@ Quando o usuário realiza uma requisição, a aplicação pode consultar o banco
 
 | Característica                        | Client-side                                                                                                       | Server-side                                                                                                |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Local em que o código é executado** | No navegador ou dispositivo do usuário.                                                                           | No servidor onde a aplicação está hospedada.                                                               |
+| **Local em que o código é executado** |  No navegador ou dispositivo do usuário.                                                                           |  No servidor onde a aplicação está hospedada.                                                               |
 | **Tecnologias de exemplo**            | HTML, CSS e JavaScript.                                                                                           | PHP, Java, Python, C#, Node.js e Ruby.                                                                     |
 | **Responsabilidades**                 | Controlar a interface, interações do usuário e validações básicas.                                                | Processar regras de negócio, autenticação, controle de sessões e acesso ao banco de dados.                 |
 | **Vantagens**                         | Resposta rápida para interações na interface e menor quantidade de requisições ao servidor.                       | Maior segurança e controle sobre dados, regras e processos importantes.                                    |
@@ -80,3 +80,20 @@ Porém, o cálculo também deve ser confirmado no **server-side**, principalment
 O controle principal da sessão deve ser realizado no servidor, que pode armazenar e validar informações relacionadas ao usuário autenticado. O navegador normalmente mantém apenas um identificador, como um cookie ou token, utilizado para identificar a sessão nas próximas requisições.
 
 Essa abordagem permite maior segurança e controle sobre a autenticação do usuário.
+
+
+##Erro do exercicio01 "Console.log" (exercicio01.js:5 Uncaught ReferenceError: Console is not defined) -
+
+Motivo do erro
+
+O erro ocorre porque JavaScript diferencia letras maiúsculas e minúsculas. A linguagem possui o objeto nativo console, escrito com a letra c minúscula.
+
+Ao escrever Console com a letra C maiúscula, o JavaScript procura por um objeto com esse nome. Como esse objeto não existe, ocorre o erro ReferenceError.
+
+Correção
+
+A forma correta é:
+
+console.log("JavaScript carregado com sucesso!");
+
+Após corrigir Console.log para console.log, o programa volta a funcionar normalmente.
