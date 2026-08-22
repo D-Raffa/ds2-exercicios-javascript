@@ -81,6 +81,7 @@ O controle principal da sessão deve ser realizado no servidor, que pode armazen
 
 Essa abordagem permite maior segurança e controle sobre a autenticação do usuário.
 
+---
 
 ### Erro do Exercicio01 - (exercicio01.js:5 Uncaught ReferenceError: Console is not defined) -
 **Motivo do Erro**
@@ -96,3 +97,5 @@ A forma correta é:
 console.log("JavaScript carregado com sucesso!");
 
 Após corrigir Console.log para console.log, o programa volta a funcionar normalmente.
+
+---
