@@ -82,9 +82,8 @@ O controle principal da sessão deve ser realizado no servidor, que pode armazen
 Essa abordagem permite maior segurança e controle sobre a autenticação do usuário.
 
 
-##Erro do exercicio01 "Console.log" (exercicio01.js:5 Uncaught ReferenceError: Console is not defined) -
-
-Motivo do erro
+### Erro do Exercicio01 - (exercicio01.js:5 Uncaught ReferenceError: Console is not defined) -
+**Motivo do Erro**
 
 O erro ocorre porque JavaScript diferencia letras maiúsculas e minúsculas. A linguagem possui o objeto nativo console, escrito com a letra c minúscula.
 
