@@ -99,3 +99,8 @@ console.log("JavaScript carregado com sucesso!");
 Após corrigir Console.log para console.log, o programa volta a funcionar normalmente.
 
 ---
+
+### Erro do Exercicio04 - (Conversão de dados e calculo de idade ) -
+**Motivo do Erro**
+
+No Java Script, o sinal de "+" tem a funçao de somar duas variaveis. Seja ela String ou qualquer que for, se eu nao converter para numero usando "Number" ele vai apenas reconhecer a variavel como String e somar as duas "Palavras". No caso 20+5 resultará 205.
