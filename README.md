@@ -103,4 +103,4 @@ Após corrigir Console.log para console.log, o programa volta a funcionar normal
 ### Erro do Exercicio04 - (Conversão de dados e calculo de idade ) -
 **Motivo do Erro**
 
-No Java Script, o sinal de "+" tem a funçao de somar duas variaveis. Seja ela String ou qualquer que for, se eu nao converter para numero usando "Number" ele vai apenas reconhecer a variavel como String e somar as duas "Palavras". No caso 20+5 resultará 205.
+No JavaScript, o sinal + pode ter duas funções: somar números ou concatenar strings. Se as variáveis forem do tipo String e eu não convertê-las para Number, o JavaScript irá juntar os valores em vez de realizar uma soma. Por exemplo, "20" + "5" resultará em "205". Para obter o resultado 25, é necessário converter os valores para números usando Number();
