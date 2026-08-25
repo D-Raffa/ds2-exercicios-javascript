@@ -20,11 +20,10 @@ console.log("Tipo da variavel idade: " + typeof idade);
 console.log("tipo da variavel cidade: " + typeof cidade);
 console.log("Tipo da variavel matriculado: " + typeof nota);
 
-/*
-As variáveis nome, cidade, matriculado e nota foram declaradas com const
-porque seus valores não devem ser alterados durante a execução do programa.
 
-A variável idade foi declarada com let porque seu valor pode mudar com o
-tempo. Por exemplo, quando o aluno fizer aniversário, a idade poderá ser
-atualizada sem a necessidade de criar uma nova variável.
-*/
+//As variáveis nome, cidade, matriculado e nota foram declaradas com const
+//porque seus valores não devem ser alterados durante a execução do programa.
+
+//A variável idade foi declarada com let porque seu valor pode mudar com o
+//tempo. Por exemplo, quando o aluno fizer aniversário, a idade poderá ser
+//atualizada sem a necessidade de criar uma nova variável.
