@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column ;
+    margin: 0 auto;
+    padding: 1%;
+    width: 90%;
+    background-color: black;
+    color: #E6BB50;
+}
+
+ol, ul {
+    list-style: none;
+}
